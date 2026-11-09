@@ -1,0 +1,32 @@
+from football.services.api_football import (
+    TTL_FIXTURE_DETAIL,
+    TTL_FIXTURES,
+    TTL_H2H,
+    TTL_LIVE,
+    TTL_PLAYERS,
+    TTL_PLAYER_STATS,
+    TTL_STANDINGS,
+    TTL_TEAMS,
+    TTL_TEAM_STATS,
+)
+
+TTL_LEAGUES = 60 * 60 * 24
+TTL_SQUADS = 60 * 60 * 12
+TTL_TRANSFERS = 60 * 60 * 24
+TTL_COACHES = 60 * 60 * 24
+
+__all__ = [
+    "TTL_COACHES",
+    "TTL_FIXTURE_DETAIL",
+    "TTL_FIXTURES",
+    "TTL_H2H",
+    "TTL_LEAGUES",
+    "TTL_LIVE",
+    "TTL_PLAYERS",
+    "TTL_PLAYER_STATS",
+    "TTL_SQUADS",
+    "TTL_STANDINGS",
+    "TTL_TEAMS",
+    "TTL_TEAM_STATS",
+    "TTL_TRANSFERS",
+]
